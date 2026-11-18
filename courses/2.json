@@ -1,0 +1,44 @@
+{
+  "id": "2",
+  "title": "Dart untuk Pemula",
+  "description": "Kuasai sintaks dasar bahasa Dart mulai dari variabel, null safety, fungsi, hingga pemrograman asinkron. Kelas ini dirancang untuk calon developer Flutter yang belum memiliki latar belakang bahasa Dart. Setiap topik membahas penerapan praktis seperti kontrol alur logika, manipulasi koleksi List, Set, dan Map, serta konsep class dan objek. Anda juga akan mempelajari penggunaan Future dan async-await sebagai bekal mengambil data dari API.",
+  "thumbnailUrl": "https://picsum.photos/seed/dart-pemula/640/360",
+  "instructor": "Bagas Wirawan",
+  "lessons": [
+    {
+      "id": "2-1",
+      "order": 1,
+      "title": "Variabel, Tipe Data, dan Null Safety di Dart",
+      "durationSeconds": 60,
+      "videoUrl": "https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+    },
+    {
+      "id": "2-2",
+      "order": 2,
+      "title": "Percabangan, Perulangan, dan Operator Dasar",
+      "durationSeconds": 596,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"
+    },
+    {
+      "id": "2-3",
+      "order": 3,
+      "title": "Fungsi, Parameter Opsional, dan Arrow Syntax",
+      "durationSeconds": 25,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/dizzy-with-tx3g.mp4"
+    },
+    {
+      "id": "2-4",
+      "order": 4,
+      "title": "Koleksi Data: List, Set, dan Map",
+      "durationSeconds": 13,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/shortform_2.mp4"
+    },
+    {
+      "id": "2-5",
+      "order": 5,
+      "title": "Pemrograman Berorientasi Objek dan Async-Await",
+      "durationSeconds": 3600,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4"
+    }
+  ]
+}

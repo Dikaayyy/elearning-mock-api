@@ -1,0 +1,44 @@
+{
+  "id": "1",
+  "title": "Dasar Pemrograman Flutter",
+  "description": "Pelajari fondasi membangun aplikasi mobile lintas platform menggunakan Flutter dari instalasi hingga membuat halaman pertama. Cocok untuk pemula yang ingin mulai mengembangkan aplikasi Android dan iOS dengan satu basis kode. Anda akan memahami arsitektur widget tree, pengelolaan dependensi di pubspec.yaml, serta penyusunan layout dasar menggunakan Text, Row, Column, dan Container. Di akhir kelas, Anda mampu merakit halaman profil sederhana beserta navigasi antar layar.",
+  "thumbnailUrl": "https://picsum.photos/seed/flutter-dasar/640/360",
+  "instructor": "Rina Pratama",
+  "lessons": [
+    {
+      "id": "1-1",
+      "order": 1,
+      "title": "Pengenalan Flutter dan Arsitektur Cross-Platform",
+      "durationSeconds": 596,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"
+    },
+    {
+      "id": "1-2",
+      "order": 2,
+      "title": "Instalasi Flutter SDK dan Setup Environment",
+      "durationSeconds": 60,
+      "videoUrl": "https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+    },
+    {
+      "id": "1-3",
+      "order": 3,
+      "title": "Memahami Struktur Proyek dan Pubspec",
+      "durationSeconds": 25,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-25s.mp4"
+    },
+    {
+      "id": "1-4",
+      "order": 4,
+      "title": "Widget Dasar: Text, Row, Column, dan Container",
+      "durationSeconds": 3600,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4"
+    },
+    {
+      "id": "1-5",
+      "order": 5,
+      "title": "Membangun Halaman Profil Pertama dan Navigasi",
+      "durationSeconds": 17,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/shortform_1.mp4"
+    }
+  ]
+}

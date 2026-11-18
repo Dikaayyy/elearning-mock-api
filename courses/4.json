@@ -1,0 +1,51 @@
+{
+  "id": "4",
+  "title": "State Management dengan Riverpod",
+  "description": "Pelajari cara mengelola state aplikasi Flutter secara terstruktur, reaktif, dan mudah diuji menggunakan Riverpod serta integrasi dengan Dio. Direkomendasikan bagi developer Flutter yang sudah memahami dasar widget dan ingin membangun arsitektur produksi. Kelas ini mengupas penggunaan ProviderScope, ConsumerWidget, FutureProvider, hingga Notifier dan AsyncNotifier untuk alur data kompleks. Anda juga akan mempraktikkan pola repository bersama Dio serta menulis unit test untuk setiap provider.",
+  "thumbnailUrl": "https://picsum.photos/seed/riverpod-state/640/360",
+  "instructor": "Dimas Saputra",
+  "lessons": [
+    {
+      "id": "4-1",
+      "order": 1,
+      "title": "Konsep State di Flutter dan Mengapa Memilih Riverpod",
+      "durationSeconds": 60,
+      "videoUrl": "https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+    },
+    {
+      "id": "4-2",
+      "order": 2,
+      "title": "Mengenal ProviderScope, ConsumerWidget, dan WidgetRef",
+      "durationSeconds": 596,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"
+    },
+    {
+      "id": "4-3",
+      "order": 3,
+      "title": "Mengelola State Asinkron dengan FutureProvider",
+      "durationSeconds": 17,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/shortform_1.mp4"
+    },
+    {
+      "id": "4-4",
+      "order": 4,
+      "title": "Arsitektur State Kompleks Menggunakan Notifier dan AsyncNotifier",
+      "durationSeconds": 3600,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4"
+    },
+    {
+      "id": "4-5",
+      "order": 5,
+      "title": "Integrasi HTTP Client Dio dengan Riverpod Repository Pattern",
+      "durationSeconds": 25,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/dizzy-with-tx3g.mp4"
+    },
+    {
+      "id": "4-6",
+      "order": 6,
+      "title": "Pengujian Unit pada Provider dan Penanganan Error",
+      "durationSeconds": 10,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-10s.mp4"
+    }
+  ]
+}

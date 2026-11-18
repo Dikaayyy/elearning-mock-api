@@ -1,0 +1,44 @@
+{
+  "id": "5",
+  "title": "Git dan GitHub untuk Developer Pemula",
+  "description": "Pelajari alur kerja version control menggunakan Git dan kolaborasi tim melalui GitHub dari dasar hingga Pull Request. Cocok untuk mahasiswa dan junior developer yang ingin mengelola kode proyek secara profesional. Materi mencakup inisialisasi repositori, siklus staging dan commit, pengelolaan branch, serta teknik menyelesaikan merge conflict. Anda juga akan berlatih menghubungkan repositori lokal ke remote GitHub dan melakukan code review yang efektif.",
+  "thumbnailUrl": "https://picsum.photos/seed/git-github/640/360",
+  "instructor": "Lestari Wulandari",
+  "lessons": [
+    {
+      "id": "5-1",
+      "order": 1,
+      "title": "Konsep Version Control dan Konfigurasi Awal Git",
+      "durationSeconds": 596,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4"
+    },
+    {
+      "id": "5-2",
+      "order": 2,
+      "title": "Siklus Kerja Dasar: Staging, Commit, dan Riwayat Perubahan",
+      "durationSeconds": 11,
+      "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/shortform_4.mp4"
+    },
+    {
+      "id": "5-3",
+      "order": 3,
+      "title": "Strategi Branching, Merging, dan Menyelesaikan Merge Conflict",
+      "durationSeconds": 60,
+      "videoUrl": "https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+    },
+    {
+      "id": "5-4",
+      "order": 4,
+      "title": "Menghubungkan Repository Lokal ke GitHub: Push, Pull, dan Fetch",
+      "durationSeconds": 8,
+      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+    },
+    {
+      "id": "5-5",
+      "order": 5,
+      "title": "Kolaborasi Tim melalui Pull Request dan Code Review",
+      "durationSeconds": 5,
+      "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+    }
+  ]
+}
