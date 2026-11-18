@@ -64,12 +64,14 @@ Script memeriksa validitas JSON, kelengkapan dan tipe field, format `id` dan `or
 
 ## Catatan Media Placeholder
 
-- **Thumbnail** menggunakan gambar placeholder deterministik dari `picsum.photos/seed/{slug-course}/640/360`.
-- **Video** menggunakan file `.mp4` sampel publik HTTPS (Google ExoPlayer / Gvabox / Flutter / MDN sample videos) dengan `durationSeconds` sesuai durasi asli masing-masing video.
+- **Thumbnail** menggunakan gambar placeholder deterministik dari `picsum.photos/seed/{slug-course}/640/360`. Disarankan memakai `errorWidget` / `errorBuilder` di Flutter sebagai fallback jika layanan pihak ketiga gagal diakses.
+- **Video** menggunakan file `.mp4` sampel publik HTTPS (Google ExoPlayer / Gvabox / Flutter / MDN sample videos). Nilai `durationSeconds` bervariasi antar lesson karena mengikuti durasi asli masing-masing video placeholder.
 
 ## Cara Mengganti dengan API Sebenarnya
 
-API produksi diasumsikan memiliki endpoint `/courses` dan `/courses/{id}` dengan struktur respons JSON yang identik. Pada layer data / Dio client di Flutter, cukup lakukan dua penyesuaian:
+Suffix `.json` pada endpoint merupakan konsekuensi static hosting di GitHub Pages. Pada API produksi sebenarnya, path endpoint adalah `/courses` dan `/courses/{id}` dengan struktur respons JSON yang identik.
 
-1. Ubah `baseUrl` pada instance `Dio` dari URL GitHub Pages ke URL backend sebenarnya.
-2. Hapus suffix `.json` pada pemanggilan path endpoint (dari `/courses.json` menjadi `/courses`, dan dari `/courses/$id.json` menjadi `/courses/$id`).
+Saat menggunakan Dio di Flutter, pastikan `baseUrl` tidak diakhiri trailing slash `/` agar tidak terjadi double slash:
+
+- **Mock API (GitHub Pages):** `baseUrl = "https://dikaayyy.github.io/elearning-mock-api"` dengan path `/courses.json` dan `/courses/$id.json`.
+- **API Sebenarnya:** cukup ganti `baseUrl` ke URL backend produksi dan hapus suffix `.json` pada path menjadi `/courses` dan `/courses/$id`.
